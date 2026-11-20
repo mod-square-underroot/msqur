@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>modsquareunderroot — step into the future</title>
+  <meta name="description" content="Prose and poetry.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Pinyon+Script&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+  <div class="backdrop-word" aria-hidden="true">modsquareunderroot</div>
+
+  <header class="site-bar">
+    <span class="wordmark" data-site-name>modsquareunderroot</span>
+    <button class="sound-toggle" data-sound-toggle aria-pressed="false">
+      <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="sound-label">Sound</span>
+    </button>
+  </header>
+
+  <main class="stage">
+    <div class="tv" id="tv">
+      <div class="antennae" aria-hidden="true"><i></i><i></i></div>
+      <div class="cabinet">
+        <div class="bezel">
+          <a class="screen" id="screen" href="works.html" data-no-wake>
+            <div class="tube">
+              <canvas class="static" id="static" width="200" height="150" aria-hidden="true"></canvas>
+              <div class="roll" aria-hidden="true"></div>
+              <p class="screen-text"><span class="l1">Step into</span><span class="l2">the future</span></p>
+              <div class="scan" aria-hidden="true"></div>
+            </div>
+            <div class="glass" aria-hidden="true"></div>
+            <span class="visually-hidden">— enter the works</span>
+          </a>
+        </div>
+        <div class="controls">
+          <div class="knob-wrap">
+            <button class="knob" id="channel" aria-label="Change channel"></button>
+            <span aria-hidden="true">channel</span>
+          </div>
+          <div class="knob-wrap">
+            <button class="knob small" data-sound-toggle aria-label="Sound"><span class="sound-label visually-hidden">Sound</span></button>
+            <span aria-hidden="true">volume</span>
+          </div>
+          <div class="grille" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="feet" aria-hidden="true"><i></i><i></i></div>
+    </div>
+  </main>
+
+  <footer class="home-foot">
+    <p data-site-blurb>Prose and poetry, written by hand and broadcast late at night.</p>
+    <p class="hint">Click the screen to enter.<br>The volume knob plays the tune.</p>
+  </footer>
+
+  <script src="data/works.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
